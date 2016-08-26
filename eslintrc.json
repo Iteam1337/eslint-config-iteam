@@ -1,0 +1,44 @@
+{
+	"extends": "standard",
+	"globals": {
+		"after": true,
+		"before": true,
+		"afterEach": true,
+		"beforeEach": true,
+		"describe": true,
+		"it": true,
+		"context": true,
+		"xdescribe": true
+	},
+	"rules": {
+		"arrow-parens": 0,
+		"no-unexpected-multiline": 2,
+		"no-var": 2,
+		"prefer-const": 2,
+		"no-dupe-args": 1,
+		"no-native-reassign": 2,
+		"no-unused-vars": [
+			2,
+			{
+				"vars": "all",
+				"caughtErrors": "all",
+				"caughtErrorsIgnorePattern": "^_.",
+				"args": "all",
+				"argsIgnorePattern": "^_."
+			}
+		],
+		"spaced-comment": [
+			0,
+			"never",
+			{
+				"exceptions": [
+					":",
+					"::"
+				],
+				"markers": [
+					"/*"
+				]
+			}
+		]
+	}
+}
