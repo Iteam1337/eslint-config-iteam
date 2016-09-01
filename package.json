@@ -1,13 +1,12 @@
 {
   "name": "eslint-config-iteam",
   "description": "",
-  "version": "0.1.0",
-  "devDependencies": {
+  "version": "0.1.1",
+  "dependencies": {
     "eslint": "^3.1.1",
     "eslint-plugin-promise": "^2.0.0",
     "eslint-plugin-standard": "^2.0.0",
-    "eslint-config-standard": ">=6.0.0",
-    "js-yaml": "^3.5.1"
+    "eslint-config-standard": ">=6.0.0"
   },
   "license": "MIT",
   "main": "index.js"
